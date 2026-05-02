@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>For You 💖</title>
+
+<style>
+body{
+  background:#ffd6e7;
+  font-family:sans-serif;
+  text-align:center;
+  padding-top:100px;
+}
+
+.box{
+  background:white;
+  width:85%;
+  margin:auto;
+  padding:30px;
+  border-radius:25px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+button{
+  padding:12px 25px;
+  border:none;
+  background:#ff4da6;
+  color:white;
+  font-size:18px;
+  border-radius:12px;
+}
+
+#text{display:none;margin-top:20px;font-size:20px;}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<h2>มีอะไรจะบอก 💌</h2>
+<button onclick="show()">กดเพื่อเปิด</button>
+
+<div id="text">
+เค้าขอให้วันนี้เป็นวันที่ดีของเธอ 💖<br>
+คิดถึงเสมอนะ ☀️
+</div>
+</div>
+
+<script>
+function show(){
+ document.getElementById("text").style.display="block";
+}
+</script>
+
+</body>
+</html>
